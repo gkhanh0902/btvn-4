@@ -1,0 +1,109 @@
+/* reser browser */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    height: 1800px;
+    background-color: rgb(210, 210, 210);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-content: space-evenly;
+}
+
+.wrap-card{
+    width: 500px;
+    height: 550px;
+    background-color: white;
+    border-radius: 2%;
+    display: flex;
+    /* flex-direction: row; */
+    font-size: 30px;
+}
+
+img{
+    width: 500px;
+    height: 330px;
+    border-radius: 3%;
+}
+
+.main-card{
+    width: 490px;
+    height: 90px;
+    background-color: white;
+    margin: 10px;
+}
+
+.bot-card{
+    display: flex;
+    justify-content: space-between;
+}
+
+.bot-card-left{
+    color: gray;
+    margin-left: 10px;
+}
+
+.bot-card-right{
+    margin-right: 10px;
+    color: gray;
+}
+
+.tuition-card{
+    color: red;
+    margin-left: 10px;
+}
+
+.info-box{
+    background-color: rgb(39,115,196);
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+
+.chusohuu{
+    width: fit-content;
+    height: 500px;
+    color: rgb(39,115,196);
+}
+
+.gioithieu{
+    width: fit-content;
+    height: 500px;
+    color: rgb(39,115,196);
+}
+
+.tuvan-daotao{
+    width: fit-content;
+    height: 500px;
+    color: rgb(39,115,196);
+}
+
+.diachi{
+    width: 300px;
+    height: 500px;
+    color: rgb(39,115,196);
+}
+
+a{color: white}
+
+h3{
+    color: white;
+}
+
+.p1{
+    color: rgb(0, 0, 0);
+}
+
+.p2{
+    color: white;
+}
